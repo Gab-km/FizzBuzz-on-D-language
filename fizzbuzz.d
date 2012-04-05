@@ -1,7 +1,7 @@
 import std.conv;
 
 string fizzbuzz(const int number) {
-    if (number == 3) {
+    if (number % 3 == 0) {
         return "fizz";
     }
     if (number == 5) {
