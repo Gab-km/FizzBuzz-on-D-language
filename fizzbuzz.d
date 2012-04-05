@@ -16,6 +16,7 @@ unittest
     assert(fizzbuzz(2) == "2");
     assert(fizzbuzz(3) == "fizz");
     assert(fizzbuzz(5) == "buzz");
+    assert(fizzbuzz(6) == "fizz");
 }
 
 int main() {
